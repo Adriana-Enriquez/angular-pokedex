@@ -4,9 +4,10 @@ import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { RouterModule } from '@angular/router';
 import { PokemonListByTypeComponent } from './pokemon-list-by-type/pokemon-list-by-type.component';
+import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.component';
 
 @NgModule({
-  declarations: [PokemonListComponent, PokemonListByTypeComponent],
+  declarations: [PokemonListComponent, PokemonListByTypeComponent, PokemonDetailComponent],
   imports: [
     CommonModule,
     MatGridListModule,

@@ -15,6 +15,7 @@ import { CategoryListComponent } from './categories/category-list/category-list.
 import { PokemonListComponent } from './pokemons/pokemon-list/pokemon-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PokemonsModule } from './pokemons/pokemons.module';
+import { PokemonDetailComponent } from './pokemons/pokemon-detail/pokemon-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { PokemonsModule } from './pokemons/pokemons.module';
     ToolbarComponent,
     ObservableComponent,
     PageNotFoundComponent,
+    PokemonDetailComponent,
   ],
   imports: [
     BrowserModule,
